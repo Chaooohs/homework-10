@@ -2,6 +2,7 @@
 
 html {
   font-family: "Work Sans", sans-serif;
+  /* font-size: 10px; */
 
   --ligth: #fff;
   --black: #000;
@@ -64,8 +65,8 @@ main {
 
 /* #region main */
 .modal {
-  width: 75.5rem;
-  height: 46rem;
+  width: 755px;
+  height: 460px;
   display: grid;
   grid-template-columns: 38% 28% 28%;
   grid-template-rows: 30px 60px 71px 60px 60px 60px 60px 27px;
