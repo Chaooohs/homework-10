@@ -18,12 +18,48 @@ main {
   margin: 20vh auto;
 }
 
+/* #region common */
+.font-title {
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: var(--black);
+  margin: 0;
+}
+.font-item {
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--black);
+  margin-bottom: 7px;
+  margin: 0;
+}
+.fotn-text {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--black);
+}
+.padding {
+  box-sizing: border-box;
+  padding: 15px 24px;
+}
+.list {
+  margin: 0;
+  padding: 0 0 0 22px;
+}
+/* #endregion */
+
 .modal {
   width: 75.5rem;
   height: 46rem;
   display: grid;
   grid-template-columns: 38% 28% 28%;
-  grid-template-rows:  30px 60px 71px 60px 60px 60px 60px 27px;
+  grid-template-rows: 30px 60px 71px 60px 60px 60px 60px 27px;
   background: var(--brown);
   border-radius: 20px;
 }
@@ -37,6 +73,12 @@ main {
   background: var(--ligth);
   box-shadow: 7px 7px 0px var(--black);
   border-radius: 20px;
+}
+.about-foto {
+  width: 101px;
+  height: 101px;
+  border: 1px solid #eb996b;
+  border-radius: 50px;
 }
 .bio {
   justify-self: flex-end;
