@@ -2,10 +2,17 @@
 
 html {
   font-size: 10px;
+
+  --ligth: #fff;
+  --black: #000;
+  --green: #29a71e;
+  --red: #e13535;
+  --blue: #3675b0;
+  --brown: #ffb084;
 }
 body {
   margin: 0 auto;
-  background-color:darkgray;
+  background-color: darkgray;
 }
 main {
   margin: 20vh auto;
@@ -14,20 +21,86 @@ main {
 .modal {
   width: 75.5rem;
   height: 46rem;
-  background: #ffb084;
+  display: grid;
+  grid-template-columns: 38% 28% 28%;
+  grid-template-rows:  30px 60px 71px 60px 60px 60px 60px 27px;
+  background: var(--brown);
   border-radius: 20px;
 }
 .about {
+  justify-self: flex-end;
+  align-self: flex-start;
+  width: 250px;
+  height: 319px;
+  grid-column: 1;
+  grid-row: 2/8;
+  background: var(--ligth);
+  box-shadow: 7px 7px 0px var(--black);
+  border-radius: 20px;
 }
 .bio {
+  justify-self: flex-end;
+  align-self: flex-start;
+  width: 400px;
+  height: 117px;
+  grid-column: 2/4;
+  grid-row: 2/4;
+  background: var(--ligth);
+  box-shadow: 7px 7px 0px var(--black);
+  border-radius: 20px;
 }
 .goals {
+  justify-self: flex-end;
+  align-self: flex-start;
+  width: 189px;
+  height: 101px;
+  grid-column: 2;
+  grid-row: 4/6;
+  background: var(--ligth);
+  box-shadow: 7px 7px 0px var(--green);
+  border-radius: 20px;
 }
 .frust {
+  justify-self: flex-end;
+  align-self: flex-start;
+  width: 189px;
+  height: 165px;
+  grid-column: 3;
+  grid-row: 4/7;
+  background: var(--ligth);
+  box-shadow: 7px 7px 0px var(--red);
+  border-radius: 20px;
 }
 .dream {
+  justify-self: flex-end;
+  align-self: flex-end;
+  width: 189px;
+  height: 151px;
+  grid-column: 2;
+  grid-row: 6/9;
+  background: var(--ligth);
+  box-shadow: 7px 7px 0px var(--blue);
+  border-radius: 20px;
 }
 .want {
+  justify-self: flex-end;
+  align-self: flex-end;
+  width: 250px;
+  height: 62px;
+  grid-column: 1;
+  grid-row: 8;
+  background: var(--ligth);
+  box-shadow: 7px 7px 0px var(--black);
+  border-radius: 20px;
 }
 .person {
+  justify-self: flex-end;
+  align-self: flex-end;
+  width: 189px;
+  height: 89px;
+  grid-column: 3;
+  grid-row: 7/9;
+  background: var(--ligth);
+  box-shadow: 7px 7px 0px var(--black);
+  border-radius: 20px;
 }
