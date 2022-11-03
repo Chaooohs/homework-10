@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap");
+
+html {
+  font-size: 10px;
+}
+body {
+  margin: 0 auto;
+  background-color:darkgray;
+}
+main {
+  margin: 20vh auto;
+}
+
+.modal {
+  width: 75.5rem;
+  height: 46rem;
+  background: #ffb084;
+  border-radius: 20px;
+}
+.about {
+}
+.bio {
+}
+.goals {
+}
+.frust {
+}
+.dream {
+}
+.want {
+}
+.person {
+}
