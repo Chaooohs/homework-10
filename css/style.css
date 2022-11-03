@@ -19,6 +19,20 @@ main {
 }
 
 /* #region common */
+.font-about {
+  font-family: 'Work Sans';
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: var(--black);
+}
+.font-about-bold {
+  font-family: "Work Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--black);
+}
 .font-title {
   font-family: "Work Sans";
   font-weight: 700;
@@ -70,15 +84,25 @@ main {
   height: 319px;
   grid-column: 1;
   grid-row: 2/8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   background: var(--ligth);
   box-shadow: 7px 7px 0px var(--black);
   border-radius: 20px;
+}
+.about-title {
+  margin-bottom: 17px;
 }
 .about-foto {
   width: 101px;
   height: 101px;
   border: 1px solid #eb996b;
   border-radius: 50px;
+}
+.about-data {
+  text-align: left;
 }
 .bio {
   justify-self: flex-end;
